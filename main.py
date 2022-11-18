@@ -27,7 +27,7 @@ def fetchDatas():
             cf.repliesResponse(twitterusername,maxresult,page)):
                 return render_template('fetched.html')
             else:
-                return "Somthing Went wrong"
+                return "Somthing Went Wrong"
              
         else:
             return "Uername is Required"  
